@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 .menubar {
     background-color: black;
     color: white;
@@ -27,7 +31,7 @@
     background-color: black;
     color: white;
     margin: 0 auto;
-    align-items: center;
+    text-align: justify;
 }
 
 
@@ -49,6 +53,9 @@
     margin: 5px;
 }
 
+.rigtht-side-content {
+    width: 40px;
+}
 .home-image image {
     width: 100%;
 }
@@ -73,16 +80,18 @@
 }
 
 .pakage-item {
-    width: 275px;
+    width: 500px;
     border: 1px solid gray;
     border-radius: 5px;
     margin-top: 20px;
     padding: 15px;
     text-align: center;
+    box-shadow: 2px 2px 4px gray;
 }
 
 .pakage {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .icon img {
@@ -94,13 +103,36 @@
 }
 
 .about-us {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .about-left-side {
     display: flex;
+    border-top: 1px solid red;
+    width: 500px;
 }
 
+.imge1 img {
+    width: 50%;
+}
+
+.imge2 img {
+    width: 50%;
+}
+
+.left-img {
+    display: flex;
+    width: 50%;
+}
+
+
+.about-right-side {
+    border-top: 1px solid gray;
+    width: 600px;
+}
 .about-section {
     background-color: black;
     color: white;
@@ -118,5 +150,59 @@
 }
 
 .title2 {
+    align-items: center;
+    }
+    
+    .work-incuary-container {
+        margin-top: 50px;
+    }
+    
+    .work-incuary {
+        background-image: url(./images/shape/Group_33094_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 700px;
+        border: 1px solid gray;
+        border-radius: 25px;
+        margin-top: 50px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     text-align: center;
+}
+.service-card {
+    border: 0px solid gray;
+    border-radius: 5px;
+    width: 320px;
+    margin: 15px;
+    box-shadow: 8px 8px 16px black;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.service-description {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.price-btn {
+    color: red;
+}
+
+.service-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
 }
